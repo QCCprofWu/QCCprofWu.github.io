@@ -1,0 +1,36 @@
+:root{
+  --primary:#abd1b0;
+  --primaryDark:#7ba081;
+  --primaryLight:#ddffe2;
+}
+.name{
+  background-color: var(--primary);
+  font-family: "cooper black";
+}
+.navbar{
+  background-color: var(--primaryDark);
+  opacity: 0.9;
+  padding-left: 1em;
+}
+.subtitle{
+  font-family: "monotype corsiva";
+  text-align: center;
+}
+.introImage img{
+  width: 200px;
+  height: 200px;
+}
+.major, .department{
+  text-align: center;
+  display: block;
+}
+/*-- FOOTER --*/
+.footer{
+  background-color: var(--primaryDark);
+}
+.col-lg-3{
+  border:solid red;
+}
+.social{
+  border: solid green;
+}
